@@ -34,12 +34,20 @@ const priceelderly = `${kilometers}` * `${pricexkm}` - `${saleelderly}`;
 
 document.getElementById("anziani").innerHTML = `${priceelderly}`;
 
+const minor = priceelderly.toFixed(2)
+
+const elderly = priceelderly.toFixed(2)
+
+const regular = priceelderly.toFixed(2)
+
+
+
 
 
 if (age <= 17) {
-    document.getElementById("prezzominori").innerHTML = `${priceminor}`;
+    document.getElementById("prezzo").innerHTML = `${minor}`;
 } else if (age >= 65) {
-    document.getElementById("prezzominori").innerHTML = `${priceelderly}`;
+    document.getElementById("prezzo").innerHTML = `${elderly}`;
 } else {
-    document.getElementById("prezzominori").innerHTML = `${priceregular}`;
+    document.getElementById("prezzo").innerHTML = `${regular}`;
 }
