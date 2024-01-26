@@ -1,5 +1,4 @@
-/*(con massimo due decimali, per indicare centesimi sul prezzo). 
-Questo richiederà un minimo di ricerca.
+/*
 Bonus:
 effettuare dei controlli per capire se l'utente ha inserito 
 correttamente il numero di km e l'età (ovvero se sono effettivamente 
@@ -51,3 +50,17 @@ if (age <= 17) {
 } else {
     document.getElementById("prezzo").innerHTML = `${regular}`;
 }
+
+
+
+if (age < 1){
+    document.getElementById("prezzo").innerHTML = "TRUFFATORE!! CI HAI PROVATO EH??";
+} else if (age > 110) {
+    document.getElementById("prezzo").innerHTML = "TRUFFATORE!! CI HAI PROVATO EH??";
+} 
+
+if (kilometers < 2){
+    document.getElementById("prezzo").innerHTML = "TRUFFATORE!! CI HAI PROVATO EH??";
+}  else if (kilometers > 1600) {
+    document.getElementById("prezzo").innerHTML = "TRUFFATORE!! CI HAI PROVATO EH??";
+} 
