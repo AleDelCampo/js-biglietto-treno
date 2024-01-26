@@ -39,5 +39,9 @@
     color: greenyellow;
 }
 
-
+span {
+    font-size: 28px;
+    font-weight: bold;
+    color: green;
+}
 
