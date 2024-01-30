@@ -33,11 +33,11 @@ const priceelderly = `${kilometers}` * `${pricexkm}` - `${saleelderly}`;
 
 document.getElementById("anziani").innerHTML = `${priceelderly}`;
 
-const minor = priceelderly.toFixed(2)
+const minor = priceminor.toFixed(2)
 
 const elderly = priceelderly.toFixed(2)
 
-const regular = priceelderly.toFixed(2)
+const regular = priceregular.toFixed(2)
 
 
 
